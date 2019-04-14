@@ -40,6 +40,6 @@ function submit() {
       nb = RGBtoHEX(b);
       console.log("the RGB color: " + "'" + r + "," + g + "," + b + "'" + ' in HexaDecimal is: ' + "'" + nr       + ng + b + "'.");
       fill(255-this.r, 255-this.g, 255-this.b);
-      text("the RGB color: " + "'" + r + "," + g + "," + b + "'" + ' in HexaDecimal is: #' + "'" + nr +           ng + b + "'.",250,400);
+      text("the RGB color: " + "'" + r + "," + g + "," + b + "'" + ' in HexaDecimal is: ' + "'#" + nr +           ng + b + "'.",250,400);
   }
 }
