@@ -39,7 +39,7 @@ function submit() {
       ng = RGBtoHEX(g); 
       nb = RGBtoHEX(b);
       console.log("the RGB color: " + "'" + r + "," + g + "," + b + "'" + ' in HexaDecimal is: ' + "'" + nr       + ng + b + "'.");
-      fill(255-this.r, 255-this.g, 255-this.b);
+      fill(255-r, 255-g, 255-b);
       text("the RGB color: " + "'" + r + "," + g + "," + b + "'" + ' in HexaDecimal is: ' + "'#" + nr +           ng + b + "'.",250,400);
   }
 }
