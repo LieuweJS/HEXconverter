@@ -9,7 +9,7 @@ function setup() {
 
 function RGBtoHEX(value) {
   var step1 = value/16;
-  var step2 = Math.floor(step1)
+  var step2 = Math.floor(step1);
   var step3 = step2*16;
   var step4 = value - step3;
   if(step2 > 9) {
